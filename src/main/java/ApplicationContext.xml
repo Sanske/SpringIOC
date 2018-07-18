@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<beans>
+
+    <bean id="user" class="Entity.User">
+        <property name="userName" value="sanske"/>
+        <property name="address" ref="address"/>
+    </bean>
+
+    <bean id="address" class="Entity.Address">
+        <property name="city" value="hefei"/>
+        <property name="provance" value="anhui"/>
+    </bean>
+
+
+</beans>
