@@ -11,7 +11,7 @@ import java.util.Map;
  * @author sanske
  * @date 2018/7/17 下午4:19
  **/
-public class springIOC2 {
+public class springIOC {
     public static void main(String[] arg) {
         BeanFactory bf = new ClassPathXmlApplicationContext("./src/main/java/ApplicationContext.xml");
         User user = (User) bf.getBean("user");

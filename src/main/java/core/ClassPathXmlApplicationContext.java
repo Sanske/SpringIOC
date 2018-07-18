@@ -20,7 +20,7 @@ public class ClassPathXmlApplicationContext implements BeanFactory {
     private Map<String, Bean> config;
 
     public ClassPathXmlApplicationContext(String path) {
-        IOC = new HashMap<>(16);
+        IOC = new HashMap<String, Object>(16);
         config = XmlConfig.getConfig(path);
         if (config != null) {
             for (Entry<String, Bean> beanEntry : config.entrySet()) {
