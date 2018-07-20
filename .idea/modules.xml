@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/springIOC2.iml" filepath="$PROJECT_DIR$/springIOC2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springIOC.iml" filepath="$PROJECT_DIR$/springIOC.iml" />
     </modules>
   </component>
 </project>
